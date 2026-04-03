@@ -55,7 +55,7 @@ function UserForm() {
       {users?.map((u) => {
         return (
           <div className="">
-            <p key={u?._id}>{u?.name} - {u?.email} - {u?.role} - {u_.description}</p>
+            <p key={u?._id}>{u?.name} - {u?.email} - {u?.role} - {u?.description}</p>
             <button onClick={() => updateUser(u?._id ?? "69cfa2bff11341f9ba5778aa")}>update user</button>
           </div>
         )
